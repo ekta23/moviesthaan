@@ -1,0 +1,29 @@
+.movie-container{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-gap: 55px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 60px;
+}
+.input-search{
+    height:30px;
+    width:200px;
+    background-color:#141515;
+    color: white;
+    border-radius: 10px;
+    padding: 5px;
+    border-style: groove;
+    border-width: 1px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  .search-div{
+    display: flex;
+   flex-direction: row;
+   align-items: center;
+   float: right;
+   margin-top: 40px;
+  }
+  .input-search:focus{
+    border-color: #cf7278;
+  }
